@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hariken</string>
+    <string name="login_text">Login</string>
+    <string name="registration_text">Register</string>
+    <string name="click_here"> <u>Click Here</u></string>
+    <string name="hariken">হারিকেন</string>
+</resources>

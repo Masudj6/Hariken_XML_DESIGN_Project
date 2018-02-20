@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yourdomainname.hariken">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Hariken_UI_02_login_or_reg" />
+        <activity android:name=".Hariken_UI_03_login_screen" />
+        <activity android:name=".Hariken_UI_04_register" />
+        <activity android:name=".Hariken_UI_05_after_login" />
+        <activity android:name=".Hariken_UI_07_choose_photo" />
+        <activity android:name=".Hariken_UI_16_share_email"></activity>
+    </application>
+
+</manifest>
